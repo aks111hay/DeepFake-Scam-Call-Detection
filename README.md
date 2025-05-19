@@ -10,7 +10,8 @@ This project is designed to detect deepfake scam calls using machine learning mo
 - `app.py`: Flask web application to simulate and run the model.
 - `fake.wav`: Example of a deepfake scam audio sample.
 - `real.wav`: Example of a real (genuine) audio sample.
-- `models/`: Folder containing trained models (if applicable).
+- `deepfake_scam_call_detection.pkl`:SVM trained model.
+- `scaler.pkl`:model for scaling the features for high accuracy.
 - `README.md`: Project overview and instructions.
 - `deepfake audio detection.ipynb`: Jupyter notebook (Audio analysis and model devlopement).
 
